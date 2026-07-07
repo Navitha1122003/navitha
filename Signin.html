@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          h3
+        {
+            text-align: center;
+           font-size: 300%;
+            text-shadow:3px 3px 3px #f1bb3d;
+            color:#C62E2E;
+        }
+/* Base styles for larger screens */
+.navbar {
+    background: linear-gradient(45deg,#f1bb3d,#C62E2E); /* Orange background */
+    color: #000080; /* Dark blue text */
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.navbar a {
+    color: #000080;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+/* Media query for screens smaller than 768px (typical for tablets) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        margin: 5px 0;
+    }
+
+    .search-container {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .search-container input[type="text"] {
+        width: calc(100% - 70px); /* Adjust width for button */
+    }
+}
+
+/* Media query for screens smaller than 480px (typical for mobile phones) */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 5px;
+    }
+
+    .navbar a {
+        font-size: 0.9em;
+        margin: 3px 0;
+    }
+
+    .search-container button {
+        padding: 5px;
+    }
+}
+table
+           {
+             border: 2px solid black;
+             padding-left: 25px;
+             padding-top: 25px;
+             padding-bottom: 25px;
+             padding-right: 25px;
+             border-top-left-radius: 10px;
+             border-end-end-radius: 10px;
+             border-end-start-radius: 10px;
+            border-top-right-radius: 10px;
+            line-height: 20px;
+     
+           }
+footer
+          {
+          font-family: Arial, Helvetica, sans-serif;
+           font-size: larger;
+           background: linear-gradient(45deg,#f1bb3d,#C62E2E);
+           padding: 20px;
+           margin: 2px;
+           text-align: center;
+           overflow: hidden;
+           color:black;
+          }
+    </style>
+</head>
+<body>
+    <center>
+        <h3><img src="image/logo.imge.jpg" alt="" width="80px" height="70px">Fast & Delicious Foods</h3>
+      </center>
+      
+<div class="navbar"><strong>
+    <a href="Home.html"><img src="image/img.home.png" alt="" width="25px" height="20px"style="vertical-align: middle;"> Home</a>
+    <a href="Signin.html"><img src="image/img.login.png" alt=""width="25px" height="20px" style="vertical-align: middle;"> Signin</a>
+    <a href="Register.html"><img src="image/img.register.png" alt="" width="25px" height="20px"style="vertical-align: middle;"> Register</a>
+    <a href="Menu.html"><img src="image/icons.menu img.png" alt=""width="25px" height="20px" style="vertical-align: middle;"> Menu</a>
+    <a href="About us.html"><img src="image/icons8-about-us-50.png" alt="" width="25px" height="20px"style="vertical-align: middle;"> About Us</a>
+    <a href="Your Address.html"><img src="image/icons8-address-24.png" alt="" width="25px" height="20px"style="vertical-align: middle;"> Your Address</a>
+    <div class="search-container">
+        <input type="text" placeholder="Search">
+        <button type="submit">Search</button></strong>
+    </div>
+
+</div>
+<center><br>
+    <h1 style="color: darkgreen;">Login</h1>
+ <form >
+ <table><br>
+     <tr>
+         <td><label> User Name</label></td>
+         <td><input type="text" name="" id=""></td>
+     </tr>
+     <tr>
+         <td><label>Password </label></td>
+         <td><input type="password" name="" id=""></td>
+     </tr>
+     <tr>
+         <td><label>Re-Type Password</label></td>
+         <th><input type="text" name="" id=""></th>
+     </tr>
+     <tr>
+         <td></td>
+         <td><button>Login</button></td>
+    
+     </tr>
+ </table>     
+</form><br><br>
+<!-- <a href="home.html"> Back to Home</a> -->
+</center>
+<footer>
+    <center>
+      <p>&Copy; Rigth 2024 Fast food.All rights reserved. 
+      <!-- <img src="image/icons8-facebook-50.png" alt="" width="25px" height="20px"><img src="image/icons8-whatsapp-50.png" alt="" width="25px" height="20px"><img src="image/icons8-telegram-app-50.png" alt="" width="25px" height="20px">  -->
+       </p>
+     </center>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          h3
+        {
+            text-align: center;
+           font-size: 300%;
+            text-shadow:3px 3px 3px #f1bb3d;
+            color:#C62E2E;
+        }
+/* Base styles for larger screens */
+.navbar {
+    background: linear-gradient(45deg,#f1bb3d,#C62E2E); /* Orange background */
+    color: #000080; /* Dark blue text */
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.navbar a {
+    color: #000080;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+/* Media query for screens smaller than 768px (typical for tablets) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        margin: 5px 0;
+    }
+
+    .search-container {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .search-container input[type="text"] {
+        width: calc(100% - 70px); /* Adjust width for button */
+    }
+}
+
+/* Media query for screens smaller than 480px (typical for mobile phones) */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 5px;
+    }
+
+    .navbar a {
+        font-size: 0.9em;
+        margin: 3px 0;
+    }
+
+    .search-container button {
+        padding: 5px;
+    }
+}
+
+footer
+          {
+          font-family: Arial, Helvetica, sans-serif;
+           font-size: larger;
+           background: linear-gradient(45deg,#f1bb3d,#C62E2E);
+           padding: 20px;
+           margin: 2px;
+           text-align: center;
+           overflow: hidden;
+           color:black;
+          }
+    </style>
+</head>
+<body>
+    <center>
+        <h3><img src="image/logo.imge.jpg" alt="" width="80px" height="70px">Fast & Delicious Foods</h3>
+      </center>
+      
+<div class="navbar"><strong>
+    <a href="Home.html"><img src="image/img.home.png" alt="" width="25px" height="20px"style="vertical-align: middle;"> Home</a>
+    <a href="Signin.html"><img src="image/img.login.png" alt=""width="25px" height="20px" style="vertical-align: middle;"> Signin</a>
+    <a href="Register.html"><img src="image/img.register.png" alt="" width="25px" height="20px"style="vertical-align: middle;"> Register</a>
+    <a href="Menu.html"><img src="image/icons.menu img.png" alt=""width="25px" height="20px" style="vertical-align: middle;"> Menu</a>
+    <a href="About us.html"><img src="image/icons8-about-us-50.png" alt="" width="25px" height="20px"style="vertical-align: middle;"> About Us</a>
+    <a href="Your Address.html"><img src="image/icons8-address-24.png" alt="" width="25px" height="20px"style="vertical-align: middle;"> Your Address</a>
+    <div class="search-container">
+        <input type="text" placeholder="Search">
+        <button type="submit">Search</button></strong>
+    </div>
+</div>
+<div class="about-us" style="background-color:white;">
+    <center><h1 style="color: darkgreen; text-shadow: 3px 3px 3px lightsalmon;">About Us</h1></center>
+    <h2 style="color: dodgerblue;">Welcome</h2>
+    <p style="font-size: large;"> <img src="image/arrow icons image.png" alt="" width="30px" height="20px">Welcome to Fast Food, your go-to destination for delicious and quick meals.</p>
+    <p style="font-size: large;"> <img src="image/arrow icons image.png" alt="" width="30px" height="20px">We're passionate about serving high-quality food that's made with love.</p>
+    <h2  style="color: dodgerblue;">Our Mission</h2>
+    <p> <img src="image/arrow icons image.png" alt="" width="30px" height="20px">Our mission is to provide fast, fresh, and flavorful food that exceeds our customers' expectations.</p>
+  
+    <h2  style="color: dodgerblue;">Our Values</h2>
+    <ol style="font-size: large;">
+      <img src="image/arrow icons image.png" alt="" width="30px" height="20px"> <span style="color: orangered;">Quality:</span> We're dedicated to serving the highest-quality food, made with love and care.<br>
+      <img src="image/arrow icons image.png" alt="" width="30px" height="20px"><span style="color: orangered;">Customer Service:</span> We're committed to providing exceptional customer service, every time.<br>
+      <img src="image/arrow icons image.png" alt="" width="30px" height="20px"> <span style="color:orangered ;" >Community:</span> We're proud to be a part of our communities, and we're dedicated to giving back.<br>
+      <img src="image/arrow icons image.png" alt="" width="30px" height="20px"> <span style="color:orangered;">Innovation:</span> We're always looking for new ways to innovate and improve our menu and services.<br>
+    </ol>
+    <h2  style="color: dodgerblue;">What We Our</h2>
+    <p style="font-size: large;"><img src="image/arrow icons image.png" alt="" width="30px" height="20px">Deliciou menu option - burgers, sandwich,salads, fries, desserts Fresh ingredients, sourced locally when possible.</p>
+    <p style="font-size: large;"><img src="image/arrow icons image.png" alt="" width="30px" height="20px">Dietary option-Vegetarian,gluten-free,non vegetarian etc.</p>
+    <p style="font-size: large;"><img src="image/arrow icons image.png" alt="" width="30px" height="20px">Quick service, welcoming atmosphere</p>
+  
+    <h2  style="color: dodgerblue;">Community Involvement</h2>
+    <p style="font-size: large;"><img src="image/arrow icons image.png" alt="" width="30px" height="20px"> Charitable initiatives-food drives, fundraising events</p>
+     <p style="font-size: large;"><img src="image/arrow icons image.png" alt="" width="30px" height="20px"> Partnership with local organizations </p>
+     <p style="font-size: large;"><img src="image/arrow icons image.png" alt="" width="30px" height="20px">Volunteer opportunities for employees </p>
+     <h2 style="color: dodgerblue;">Get in Touch</h2>
+     <p style="font-size: large;">1. Contact us at mail to:<b>info@Fastfood.com</b></p>
+     <p style="font-size: large;">2. Visit ont of our locations today</p>
+  
+     <!-- <h2 style="color: dodgerblue;">Social Media</h2>
+     <p style="font-size: large;"></p> -->  
+<footer>
+    <center>
+      <p>&Copy; Rigth 2024 Fast food.All rights reserved. 
+      <!-- <img src="image/icons8-facebook-50.png" alt="" width="25px" height="20px"><img src="image/icons8-whatsapp-50.png" alt="" width="25px" height="20px"><img src="image/icons8-telegram-app-50.png" alt="" width="25px" height="20px">  -->
+       </p>
+     </center>
+   </footer>
+</body>
+</html>
